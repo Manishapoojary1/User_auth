@@ -1,0 +1,107 @@
+/* Login.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f4f8; /* subtle background */
+  padding: 1rem;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.login-box p {
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group input {
+  width: 50%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input-group input::placeholder {
+  color: #cbd5e1;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password a {
+  color: #6366f1;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 14px rgba(118, 75, 162, 0.2);
+}
+
+.login-btn:hover {
+  transform: scale(1.02);
+  background: linear-gradient(90deg, #5a67d8, #6b46c1);
+}
+
+.bottom-text {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  color: #374151;
+}
+
+.bottom-text a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
+}
